@@ -146,6 +146,36 @@ section{padding:75px 0 100px;}
 
 footer{float:left; width:100%; background:#1F2D3C; color:#fff; height:50px; line-height:50px;}
 footer p{font-size:14px; font-weight:300; margin-bottom:0;}
+
+/*slide*/
+
+  .slide_box{
+            width: 200px;
+            position: relative;
+            left: 50%;
+            margin-left: -500px;            
+            border: 2px blue solid;
+            z-index: 100;
+        }
+        .slide_wrap{
+            width: 1200px;
+            background: red;
+            /*width: 1000px;*/
+            margin: 0;
+            padding: 0;
+        }
+        .slide_item{
+            background: green;
+            width: 200px;
+            list-style: none;
+            float: left;
+            text-align: center;
+            line-height: 50px;
+        }
+        .slide_item a{
+            text-decoration: none;
+            color : black;
+
 /* RESPONSIVE CSS
 -------------------------------------------------- */
 
@@ -204,3 +234,4 @@ h2 {}
 	.f-small-block .small-inner{padding:0 20px}
 	
 }
+
